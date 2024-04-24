@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Paribahan</title>
+    <!-- tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:wght@100..900&display=swap" rel="stylesheet">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .inter{
+            font-family: "Inter", sans-serif;
+        }
+        .raleway{
+            font-family: "Raleway", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header class="mx-12 my-1 raleway">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a> Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a>Destination</a></li>
+                        <li><a>Search</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-black text-2xl font-bold">Public Paribahan</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a class="font-semibold text-[#030712B3]"> Home</a></li>
+                    <li><a class="font-semibold text-[#030712B3]" href="">About</a></li>
+                    <li><a class="font-semibold text-[#030712B3]">Destination</a></li>
+                    <li><a class="font-semibold text-[#030712B3]">Search</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn text-[#1DD100] border-[#1DD10066] text-base font-semibold">Bus <img src="images/bus-icon.png" alt=""></a>
+                </div>
+              </div>
+      </header>
+      <section id="hero-section" class="mr-14 ml-16 relative">
+            <div class="hero rounded-3xl bg-bottom py-24" style="background-image: url(images/banner.png);">
+                <div class="hero-overlay bg-opacity-0"></div>
+                  <div class="max-w-xl text-center text-white -mt-12 pb-12 raleway">
+                    <h2 class="mb-5 text-5xl font-bold leading-relaxed">End-to-End Travel with <span class="text-[#1DD100]">Public Paribahan</span></h2>
+                    <p class="mb-5 text-base font-normal inter">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+                    <a href="#seat-plan-section" class="btn bg-[#1DD100] font-bold text-lg text-black 
+                    border-none px-7">Buy Tickets</a>
+                  </div>
+            </div>
+            <div class="stat-div absolute left-0 lg:left-24 -bottom-10 border-b-2 border-[#1DD100] rounded-2xl">
+              <div class="stats shadow py-3">
+                <div class="stat-img">
+                  <img src="images/people.png" alt="" class="pt-4 pl-5">
+                </div>
+                <div class="stat border-none pr-16">
+                  <div class="text-4xl font-bold text-black">500K+</div>
+                  <div class="stat-desc text-base font-medium">Registered users</div>
+                </div>
+              </div>
+            </div>
+            <div class="stat-div z-20 absolute left-32 -bottom-36 lg:left-[400.5px] lg:-bottom-10 border-b-2 border-[#1DD100] rounded-2xl">
+              <div class="stats shadow py-3">
+                <div class="stat-img">
+                  <img src="images/ticket-cupon.png" alt="" class="pt-4 pl-5">
+                </div>
+                <div class="stat border-none pr-16">
+                  <div class="text-4xl font-bold text-black">1.7 lacks</div>
+                  <div class="stat-desc text-base font-medium">Tickets sold</div>
+                </div>
+              </div>
+            </div>
+            <div class="stat-div absolute right-0 lg:right-24 -bottom-10 border-b-2 border-[#1DD100] rounded-2xl">
+              <div class="stats shadow py-3">
+                <div class="stat-img">
+                  <img src="images/stoppage.png" alt="" class="pt-4 pl-5">
+                </div>
+                <div class="stat border-none pr-16">
+                  <div class="text-4xl font-bold text-black">80K+</div>
+                  <div class="stat-desc text-base font-medium">Rental partners</div>
+                </div>
+              </div>
+            </div>
+      </section>
+      <section id="cupon-section" class="lg:mt-28 mt-44 text-center font-bold text-3xl inter text-black ml-12">
+          <h3 class="text-2xl text-[#030712] raleway">Best offers for you</h3>
+            <div class="cupon grid lg:grid-cols-2 grid-cols-1 lg:gap-x-32 mr-40">
+              <div class="cupon-1 text-left w-[550px] bg-[#FFBF0F] pl-10 grid grid-cols-3 h-[219px] rounded-2xl my-10 ml-2">
+                <div class="cupon-text my-auto inter">
+                  <h4 class="text-3xl font-bold text-[#030712cc]">15% OFF</h4>
+                  <p class="text-base py-2 w-48">on your next purchase</p>
+                  <p class="text-base text-[#03071280]">use by January 2024</p>
+                </div>
+                <div class="cupon-img pl-16 pr-12">
+                  <img src="images/cupon-devider.png" alt="">
+                </div>
+                <div class="cupon-code my-auto raleway -ml-3">
+                  <h4 class="text-2xl font-bold pl-3 leading-8 pb-2">NEW15</h4>
+                 <p class="text-base text-[#03071266]">Coupon Code</p>
+                </div>
+              </div>
+              <div class="cupon-2 text-left w-[550px] bg-[#F78C9C] pl-10 grid grid-cols-3 h-[219px] rounded-2xl my-10 lg:ml-0 ml-2">
+                <div class="cupon-text my-auto inter">
+                  <h4 class="text-3xl font-bold text-[#030712cc]">20% OFF</h4>
+                  <p class="text-base py-2 w-48">on your next purchase</p>
+                  <p class="text-base text-[#03071280]">use by January 2024</p>
+                </div>
+                <div class="cupon-img pl-16 pr-12">
+                  <img src="images/cupon-devider.png" alt="">
+                </div>
+                <div class="cupon-code my-auto raleway -ml-3">
+                  <h4 class="text-2xl font-bold leading-8 pb-2">COUPLE20</h4>
+                 <p class="text-base pl-2 text-[#03071266]">Coupon Code</p>
+                </div>
+              </div>
+            </div>
+            <div class="cupon-btn mx-auto mt-5">
+              <button class="btn btn-outline raleway font-bold px-7 border-[#1DD100] text-[#1DD100]">See All Offers</button>
+            </div>
+      </section>
+
+      <section class="paribahan-section mt-28 pb-24 bg-base-200 border-[#1DD100] border-t-2 rounded-t-[50px]">
+          <div class="paribahan-text text-center pt-28">
+            <h3 class="text-3xl pb-4 text-black font-bold">Public Paribahan</h3>
+            <p class="text-[#03071299] text-base font-medium">Yes, you can run unit tests and view the results directly within the app. The integrated <br> testing features allow for a streamlined .</p>
+          </div>
+          <div class="paribahan bg-white mx-12 rounded-2xl flex relative h-[418px] my-8">
+            <div class="paribahan-left col-span-4 w-4/6 mt-10 ">
+              <div class="paribahan-seat px-6 py-8  grid grid-cols-2">
+                <div class="paribahan-seat-text relative">
+                 <img src="images/bus-logo.png" alt="">
+                 <p class="raleway inline-block absolute top-0 left-20"><span class="text-xl text-black font-bold">Greenline Paribahan</span><br>
+                   <span class="text-sm font-semibold lg:block hidden">Coach-009-WEB ! AC_Business</span></p>
+                </div>
+               <div class="paribahan-seat-button ml-auto">
+                 <button class="btn text-[#1DD100] border-[#1DD100]"><img src="images/seat-green.png" alt=""><span class="relative top-0 left-0">40 Seats left</span></button>
+               </div>
+             </div>
+             <div class="table-type mx-5 bg-base-200 rounded-xl pb-5">
+              <p class="border-b-4 raleway border-dotted py-4 mx-4 text-lg grid grid-cols-2"><span class="text-[#03071266] font-semibold">Route</span><span class="ml-auto font-semibold mr-2">Dhaka - Sylhet</span></p>
+              <p class="border-b-4 raleway border-dotted py-4 mx-4 text-lg grid grid-cols-2"><span class="text-[#03071266] font-semibold">Departure Time</span><span class="ml-auto font-semibold mr-2">9:00 PM</span></p>
+              <div class="table-type-btn mt-4 grid gap-x-12 grid-cols-3 mx-4">
+                <button class="btn">Boarding Point - Laxmipur</button>
+                <button class="btn">Dropping Point - Bogura</button>
+                <button class="btn">Est. Time - 11 Hour</button>
+              </div>
+             <div class="between-img absolute top-0 left-[760px] lg:block hidden">
+              <img src="images/info-devider.png" alt="" class=" h-[418px]">
+             </div>
+             </div>
+            </div>
+            <div class="paribahan-right text-center raleway w-[27%] flex flex-col mx-auto items-center justify-center">
+              <img src="images/fare.png" alt="" class="mx-auto">
+              <h4 class="text-black font-bold text-2xl">550 Taka</h4>
+              <p class="text-[#03071299] text-xl font-medium">Per Seat</p>
+            </div>
+          </div>
+
+          <!-- seat Plan -->
+        <section id="seat-plan-section" class=" raleway bg-white mx-12 rounded-xl">
+            <div class="seat-plan py-4 mx-6 flex lg:flex-row flex-col">
+              <div class="seat-plan-left lg:w-3/6 w-full mr-6">
+                <h5 class="text-black text-xl font-bold pb-4 border-b-4 border-dotted">Select Your Seat</h5>
+                <p class="grid grid-cols-2 py-4 border-b-4 border-dotted"><span class="flex items-center text-[#03071280] font-semibold"><img src="images/seat-gray.png" alt=""> Available</span><span class="flex justify-end items-center text-[#1DD100] font-semibold"><img src="images/seat-green-filled.png" alt=""> Selected</span></p>
+                <div class="wheel-div text-right mt-2">
+                  <button class="btn px-7 bg-base-300"><img src="images/wheel.png" alt=""></button>
+                </div>
+                <div class="seat-table ml-3">
+                  <div class="">
+                    <table class="table mt-5 inter">
+                      <tbody>
+                        <!-- row 1 -->
+                        <tr class="border-none">
+                          <th>A</th>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">A1</button></td>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">A2</button></td>
+                          <td class="lg:pl-12 pl-16"><button class="btn px-8 text-[#03071280] font-semibold">A3</button></td>
+                          <td class=""><button class="btn px-8 text-[#03071280] font-semibold">A4</button></td>
+                        </tr>
+                        <!-- row 2 -->
+                        <tr class="border-none">
+                          <th>B</th>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">B1</button></td>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">B2</button></td>
+                          <td class="lg:pl-12 pl-16"><button class="btn px-8 text-[#03071280] font-semibold">B3</button></td>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">B4</button></td>
+                        </tr>
+                        <!-- row 3 -->
+                        <tr class="border-none">
+                          <th>C</th>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">C1</button></td>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">C2</button></td>
+                          <td class="lg:pl-12 pl-16"><button class="btn px-8 text-[#03071280] font-semibold">C3</button></td>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">C4</button></td>
+                        </tr>
+                        <!-- ROw 4 -->
+                        <tr class="border-none">
+                          <th>D</th>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">D1</button></td>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">D2</button></td>
+                          <td class="lg:pl-12 pl-16"><button class="btn px-8 text-[#03071280] font-semibold">D3</button></td>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">D4</button></td>
+                        </tr>
+                        <!-- row 5 -->
+                        <tr class="border-none">
+                          <th>E</th>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">E1</button></td>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">E2</button></td>
+                          <td class="lg:pl-12 pl-16"><button class="btn px-8 text-[#03071280] font-semibold">E3</button></td>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">E4</button></td>
+                        </tr class="border-none">
+                        <!-- row 6 -->
+                        <tr class="border-none">
+                          <th>F</th>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">F1</button></td>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">F2</button></td>
+                          <td class="lg:pl-12 pl-16"><button class="btn px-8 text-[#03071280] font-semibold">F3</button></td>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">F4</button></td>
+                        </tr>
+                        <!-- row 7 -->
+                        <tr class="border-none">
+                          <th>G</th>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">G1</button></td>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">G2</button></td>
+                          <td class="lg:pl-12 pl-16"><button class="btn px-8 text-[#03071280] font-semibold">G3</button></td>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">G4</button></td>
+                        </tr>
+                        <!-- row 8 -->
+                        <tr class="border-none">
+                          <th>H</th>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">H1</button></td>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">H2</button></td>
+                          <td class="lg:pl-12 pl-16"><button class="btn px-8 text-[#03071280] font-semibold">H3</button></td>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">H4</button></td>
+                        </tr>
+                        <!-- row 9 -->
+                        <tr class="border-none">
+                          <th>I</th>
+                          <td> <button class="btn px-8 text-[#03071280] font-semibold">I1</button></td>
+                          <td> <button class="btn px-8 text-[#03071280] font-semibold">I2</button></td>
+                          <td class="lg:pl-12 pl-16"> <button class="btn px-8 text-[#03071280] font-semibold">I3</button></td>
+                          <td> <button class="btn px-8 text-[#03071280] font-semibold">I4</button></td>
+                        </tr>
+                        <!-- row 10 -->
+                        <tr class="border-none">
+                          <th>J</th>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">J1</button></td>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">J2</button></td>
+                          <td class="lg:pl-12 pl-16"><button class="btn px-8 text-[#03071280] font-semibold">J3</button></td>
+                          <td><button class="btn px-8 text-[#03071280] font-semibold">J4</button></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="seat-plan-right lg:w-3/6 w-full lg:pt-0 pt-12 lg:border-l-4 pl-2 lg:border-dotted -ml-2">
+                <h5 class="text-black text-xl font-bold pb-4 border-b-4 border-dotted">Select Your Seat</h5>
+                <div class="bg-base-200 mt-5 pt-3 rounded-xl">
+                  <table class="table">
+                    <!-- head -->
+                    <thead class="">
+                      <tr class="inter border-none">
+                        <th class="text-black text-base font-semibold pl-10">Seat<span class="bg-[#1DD100] text-white text-sm px-1 rounded-md ml-1">0</span></th>
+                        <th class="text-black text-base font-semibold pl-24">Class</th>
+                        <th class="text-black text-base font-semibold text-right pr-10">Price</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <!-- row 1 -->
+                      <tr class="border-none">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <!-- row 2 -->
+                      <tr class="border-none">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <!-- row 3 -->
+                      <tr class="border-none">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                    <p class="text-black font-semibold inter py-5 border-t border-black mx-8 flex justify-between"><span>Total Price</span> <span>BDT 1100</span></p>
+                  <div class="apply-cupon relative">
+                    <input type="text" class="pl-4 py-4 rounded-2xl ml-8 w-[460px]"placeholder="Have any cupon?">
+                    <span class="absolute bottom-1 right-9"><button class="btn text-white border-none rounded-2xl bg-[#1DD100]" disabled>Apply</button></span>
+                  </div>
+                  <p class="text-black inter font-semibold text-base py-7 mx-8 flex justify-between"><span>Grand Total</span><span>BDT 1100</span></p>
+                </div>
+                <div class="seat-form pl-2">
+                  <form action="#">
+                    <p class="text-black font-semibold text-lg inter py-5">Passenger Name*</p>
+                  <input type="text" class="input border-gray-200 w-full pl-4 inter font-normal text-sm" placeholder="Enter your name">
+                  <p class="text-black font-semibold text-lg inter py-5">Phone Number*</p>
+                  <input type="tel" class="input border-gray-200 w-full pl-4 inter font-normal text-sm" placeholder="Enter your phone number">
+                  <p class="text-black font-semibold text-lg inter py-5">Email ID</p>
+                  <input type="email" class="input border-gray-200 w-full pl-4 inter font-normal text-sm" placeholder="Enter your email id">
+                  <input type="submit" class="btn mt-7 text-base w-full bg-[#1DD100] text-white mb-7" value="Next" disabled>
+                  </form>
+                  <p class="text-[#03071299] inter text-sm font-medium text-center">
+                    <a href="#"><u class="pr-4">Terms and Conditions</u></a>
+                    <a href="#"><u class="pl-4">Cancellation Policy</u></a>
+                  </p>
+              </div>
+            </div>
+        </section>
+      </section>
+      <footer class="bg-[#030712] text-white pt-20 ">
+        <div class="footer-top flex justify-between ml-12 mr-16 border-b-2 border-gray-700 border-dotted">
+         <div class="footer-top-left">
+          <h3 class="raleway text-3xl font-bold">Public Paribahan</h3>
+          <p class="text-[#FFFFFFCC] pt-3 pb-6"> P-Ticket is a digital platform to make your <br> daily commuting better.</p>
+         </div>
+         <div class="footer-top-right">
+          <p class="font-medium raleway text-right pb-4">Download our app</p>
+          <a href="#" class="flex"><img src="images/Group 104.png" alt=""></a>
+         </div>
+        </div>
+        <div class="footer-bottom mt-5 pb-2 mx-12 flex justify-between">
+          <div class="footer-bottom-left text-sm inter text-[#FFFFFFCC]">
+            <p>&copy:all rights reserved, Public Paribahan services limited.2024</p>
+          </div>
+          <div class="footer-bottm-right mr-4">
+            <ul>
+              <li class="text-sm text-white inline-block pr-5"><a href="#">Terms & condition</a></li>
+              <li class="text-sm text-white inline-block pr-5"><a href="#">Return & refund policy</a></li>
+              <li class="text-sm text-white inline-block"><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+  </main>
+</body>
+</html>

@@ -16,14 +16,20 @@ document.getElementById('cupon-in').addEventListener('keyup', function (event) {
         apply.removeAttribute('disabled');
         document.getElementById('apply-cupon').addEventListener('click', function () {
             const grandPrice = document.getElementById('grand-price');
-            grandPrice.innerText = totalPrice.innerText * 0.15;
+            price = totalPrice.innerText * 0.15;
+            grandPrice.innerText = totalPrice.innerText - price;
+            inText = document.getElementById('cupon-in');
+            inText.value = '';
         })
     }
     else if ( input === 'COUPLE20') {
         apply.removeAttribute('disabled');
         document.getElementById('apply-cupon').addEventListener('click', function () {
             const grandPrice = document.getElementById('grand-price');
-            grandPrice.innerText = totalPrice.innerText * 0.2;
+            price = totalPrice.innerText * 0.2;
+            grandPrice.innerText = totalPrice.innerText - price;
+            inText = document.getElementById('cupon-in');
+            inText.value = '';
         })
     }
     else if (input !== 'NEW15' || input !== 'COUPLE20') {

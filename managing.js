@@ -1,9 +1,10 @@
 const seats = document.getElementById('seat-number');
 const totalPrice = document.getElementById('total-price');
 function A1(){
+    
     const select = document.getElementById('A1')
-    select.classList.add('bg-[#1DD100]')
-    select.classList.add('text-white')
+    select.classList.add('bg-[#1DD100]');
+    select.classList.add('text-white');
     const tBody = document.getElementById('t-body');
     const tr = document.createElement('tr')
     tr.innerHTML = `
